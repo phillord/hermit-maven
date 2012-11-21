@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+Test set: org.semanticweb.HermiT.structural.ClausificationTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.23 sec <<< FAILURE!
+testNominals1(org.semanticweb.HermiT.structural.ClausificationTest)  Time elapsed: 0.031 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testNominals1(ClausificationTest.java:29)
+testNominals2(org.semanticweb.HermiT.structural.ClausificationTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testNominals2(ClausificationTest.java:33)
+testNominals3(org.semanticweb.HermiT.structural.ClausificationTest)  Time elapsed: 0.03 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testNominals3(ClausificationTest.java:37)
+testNominals4(org.semanticweb.HermiT.structural.ClausificationTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testNominals4(ClausificationTest.java:41)
+testBasic(org.semanticweb.HermiT.structural.ClausificationTest)  Time elapsed: 0.051 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<5> but was:<13>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:31)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testBasic(ClausificationTest.java:25)
+testHasKeys(org.semanticweb.HermiT.structural.ClausificationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testHasKeys(ClausificationTest.java:81)

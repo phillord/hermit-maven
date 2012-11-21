@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: org.semanticweb.HermiT.structural.ClausificationDatatypesTest
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.242 sec <<< FAILURE!
+testDataPropertiesHasValue1(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataPropertiesHasValue1(ClausificationDatatypesTest.java:15)
+testDataPropertiesHasValue2(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataPropertiesHasValue2(ClausificationDatatypesTest.java:24)
+testDataPropertiesDataOneOf1(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataPropertiesDataOneOf1(ClausificationDatatypesTest.java:69)
+testDataPropertiesDataOneOf2(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataPropertiesDataOneOf2(ClausificationDatatypesTest.java:78)
+testDataPropertiesDataOneOf3(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataPropertiesDataOneOf3(ClausificationDatatypesTest.java:87)
+testDataPropertiesDataOneOf4(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.018 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataPropertiesDataOneOf4(ClausificationDatatypesTest.java:96)
+testDataPropertiesDataComplementOf1(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataPropertiesDataComplementOf1(ClausificationDatatypesTest.java:105)
+testDataPropertiesDataComplementOf2(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataPropertiesDataComplementOf2(ClausificationDatatypesTest.java:114)
+testDataComplementOf3(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataComplementOf3(ClausificationDatatypesTest.java:290)
+testDataComplementOf4(org.semanticweb.HermiT.structural.ClausificationDatatypesTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationDatatypesTest.testDataComplementOf4(ClausificationDatatypesTest.java:299)

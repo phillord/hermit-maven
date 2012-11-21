@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.124" errors="0" skipped="0" tests="187" name="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="20.0-b12"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/phillord/src/knowledge/hermit-git/HermiT/HermiT"/>
+    <property name="java.runtime.version" value="1.6.0_24-b24"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/phillord/src/knowledge/hermit-git/HermiT/HermiT"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter5427991574106965453.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/phillord/src/knowledge/hermit-git/HermiT/HermiT/target/test-classes:/home/phillord/src/knowledge/hermit-git/HermiT/HermiT/target/classes:/home/phillord/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-api/3.4.1/owlapi-api-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-distribution/3.4.1/owlapi-distribution-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-contract/3.4.1/owlapi-contract-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/3.4.1/owlapi-apibinding-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-impl/3.4.1/owlapi-impl-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/3.4.1/owlapi-parsers-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-tools/3.4.1/owlapi-tools-3.4.1.jar:/home/phillord/.m2/repository/org/apache/ws/commons/axiom/axiom-api/1.2.9/axiom-api-1.2.9.jar:/home/phillord/.m2/repository/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.0.2/geronimo-activation_1.1_spec-1.0.2.jar:/home/phillord/.m2/repository/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.6/geronimo-javamail_1.4_spec-1.6.jar:/home/phillord/.m2/repository/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar:/home/phillord/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar:/home/phillord/.m2/repository/org/apache/ws/commons/axiom/axiom-c14n/1.2.9/axiom-c14n-1.2.9.jar:/home/phillord/.m2/repository/org/apache/ws/commons/axiom/axiom-impl/1.2.9/axiom-impl-1.2.9.jar:/home/phillord/.m2/repository/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.jar:/home/phillord/.m2/repository/org/apache/ws/commons/axiom/axiom-dom/1.2.9/axiom-dom-1.2.9.jar:/home/phillord/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/home/phillord/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.2.0-33-generic"/>
+    <property name="user.home" value="/home/phillord"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="phillord"/>
+    <property name="java.class.path" value="/home/phillord/src/knowledge/hermit-git/HermiT/HermiT/target/test-classes:/home/phillord/src/knowledge/hermit-git/HermiT/HermiT/target/classes:/home/phillord/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-api/3.4.1/owlapi-api-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-distribution/3.4.1/owlapi-distribution-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-contract/3.4.1/owlapi-contract-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/3.4.1/owlapi-apibinding-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-impl/3.4.1/owlapi-impl-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/3.4.1/owlapi-parsers-3.4.1.jar:/home/phillord/.m2/repository/net/sourceforge/owlapi/owlapi-tools/3.4.1/owlapi-tools-3.4.1.jar:/home/phillord/.m2/repository/org/apache/ws/commons/axiom/axiom-api/1.2.9/axiom-api-1.2.9.jar:/home/phillord/.m2/repository/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.0.2/geronimo-activation_1.1_spec-1.0.2.jar:/home/phillord/.m2/repository/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.6/geronimo-javamail_1.4_spec-1.6.jar:/home/phillord/.m2/repository/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar:/home/phillord/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar:/home/phillord/.m2/repository/org/apache/ws/commons/axiom/axiom-c14n/1.2.9/axiom-c14n-1.2.9.jar:/home/phillord/.m2/repository/org/apache/ws/commons/axiom/axiom-impl/1.2.9/axiom-impl-1.2.9.jar:/home/phillord/.m2/repository/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.jar:/home/phillord/.m2/repository/org/apache/ws/commons/axiom/axiom-dom/1.2.9/axiom-dom-1.2.9.jar:/home/phillord/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/home/phillord/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-6-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="/tmp/surefirebooter5427991574106965453.jar /tmp/surefire4675560058898823570tmp /tmp/surefire3962885914579476194tmp"/>
+    <property name="entityExpansionLimit" value="100000000"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_24"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="/home/phillord/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testUniversalRolePartitionedABox"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIncrementalWithSameAs"/>
+  <testcase time="0.065" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testClassificationWithValidatedBlockingError"/>
+  <testcase time="0.007" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIncrementalWithNegatedHasValue"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIncrementalWithHasValue"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIncrementalWithNegatedClass"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIncrementalWithClass"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIncrementalWithNegatedHasSelf"/>
+  <testcase time="0.009" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIncrementalWithHasSelf"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIncrementalWithFreshNames"/>
+  <testcase time="0.079" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testInstanteManagerError"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testTopOPEquivalence"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testReflexiveAndSameAs"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testFreshEntityEntailment"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testUniversalRoleSubsumption"/>
+  <testcase time="0.01" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testPrecomputeDisjointClasses"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testKeys3"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testEquivalentClassInstances"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testObjectPropertySubsumptionsNoNominals"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testObjectPropertySubsumptionsNominals"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testBottomObjectPropertyAssertion"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDataPropertyEntailment"/>
+  <testcase time="0.007" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testPropertyInstanceRetrieval"/>
+  <testcase time="0.096" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testClassificationSubClassBug"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNegativeObjectPropertyAssertionWithNonSimple"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testPropertyEnailmentFromAlan"/>
+  <testcase time="0.007" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSubProperties"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testUnknownClassHierarcyPosition"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testUnknownDatatypes"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testRoleChains"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testRoleChainsWithTransitiveSymmetric"/>
+  <testcase time="0.006" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testRoleSubsumptionWithChainsTransitiveSymmetric"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testRoleSubsumption"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIsFunctionalData"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIsFunctionalObject"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIsInverseFunctionalObject"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIsReflexiveObject"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIsIrreflexiveObject"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIsSymmetricObject"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIsAsymmetricObject"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIsTransitiveObject"/>
+  <testcase time="0.016" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testLearningBacktracking"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSameAs"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testObjectPropertyDomainsTimothyBug"/>
+  <testcase time="0.108" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDatatypeLiterals"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIndividualRetrievalBug"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIndividualRetrieval"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDataTypeRestriction"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testAnonymousIndividualConstraints"/>
+  <testcase time="0.001" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testAnonymousIndividualConstraints2"/>
+  <testcase time="0.001" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testAnonymousIndividualConstraints3"/>
+  <testcase time="0.001" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testAnonymousIndividualConstraints4"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testTransitivity"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSubAndSuperConcepts"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSubAndSuperRoles"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSubRolesChain"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHasKeyEntailment"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHasKeyNonEntailment"/>
+  <testcase time="0.008" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDatatypeDefEntailment"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDomainRange"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDateTime2"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testChains1"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testChains2"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testChains3"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testChains4"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testAnonymousIndiviuals1"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDateTime"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDataRanges"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testBottomDataProperty"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testChains"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHasKeysOnlyNamed"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNegativeDataPropertyAssertion"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testKeys"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testKeysNegatedClass"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNonUnaryKeys"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNonUnaryKeys2"/>
+  <testcase time="0.021" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHierarchyPrinting1"/>
+  <testcase time="0.011" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHierarchyPrinting2"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHierarchyPrinting3"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testObjectPropertyHierarchy"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSemanticObjectPropertyClassification"/>
+  <testcase time="0.006" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDataPropertyHierarchy"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDataPropertySemantics"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSemanticDataPropertyClassification"/>
+  <testcase time="0.008" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testComplexConceptInstanceRetrieval"/>
+  <testcase time="0.006" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testWidmann1"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testWidmann2"/>
+  <testcase time="0.118" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testWidmann3"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testReflexivity"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNegProperties"/>
+  <testcase time="0.001" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIrreflexivity"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testRoleDisjointness_1"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testRoleDisjointness_2"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testRoleDisjointness2"/>
+  <testcase time="0.001" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testExistsSelf1"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testExistsSelf2"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testAsymmetry"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiability1"/>
+  <testcase time="0.001" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiability2"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiability3"/>
+  <testcase time="0.001" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiability4"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testChanges"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSubsumption1"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSubsumption2"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSubsumption3"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHeinsohnTBox1"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHeinsohnTBox2"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHeinsohnTBox3c"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHeinsohnTBox3cIrh"/>
+  <testcase time="0.008" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHeinsohnTBox3"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHeinsohnTBox3Modified"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHeinsohnTBox4a"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHeinsohnTBox4b"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testHeinsohnTBox7"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT1a"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT1b"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT1c"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT2"/>
+  <testcase time="0.059" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT3"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT4"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT5"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT6"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT7a"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT7b"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT7c"/>
+  <testcase time="0.001" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT8a"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT8"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT9"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT10"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT11"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT12"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanT13"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanFact1"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanFact2"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanFact3"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanFact4"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBug1b"/>
+  <testcase time="0.007" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBug3"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBug4"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBug5"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBug6"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBug7"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBug8"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanMergeTest1"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanMergeTest2"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanQNRTest"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanRecursiveDefinitionTest1"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanRecursiveDefinitionTest2"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanRecursiveDefinitionTest3"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBackjumping1"/>
+  <testcase time="0.004" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBackjumping2"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testIanBackjumping3"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNominals1"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNominals2"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNominals3"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNominals4"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNominals5"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNominals6"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testDependencyDisjunctionMergingBug"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNovelNominals"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testKeys1"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testKeys2"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNominalMerging"/>
+  <testcase time="0.011" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testNIRuleBlockingWithUnraveling"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testPunning"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testPunning2"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testPunning3"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testInverses2"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testMissingCBug"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testInverses"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testAnonymousIndiviuals2"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testAnonymousIndiviuals3"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs1"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs2"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs3"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs4"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs5"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs6"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs7"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs8"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs9"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs10"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs11"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs11b"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs12"/>
+  <testcase time="0.003" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs13"/>
+  <testcase time="0.002" classname="org.semanticweb.HermiT.reasoner.ReasonerIndividualReuseTest" name="testSatisfiabilityWithRIAs14"/>
+</testsuite>

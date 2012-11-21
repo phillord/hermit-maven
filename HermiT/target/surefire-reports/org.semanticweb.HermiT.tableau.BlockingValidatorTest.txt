@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: org.semanticweb.HermiT.tableau.BlockingValidatorTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
+testOneInvalidBlock(org.semanticweb.HermiT.tableau.BlockingValidatorTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.tableau.BlockingValidatorTest.testOneInvalidBlock(BlockingValidatorTest.java:153)
+
+testInvalidBlockWithAnnotatedEqualities(org.semanticweb.HermiT.tableau.BlockingValidatorTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.tableau.BlockingValidatorTest.testInvalidBlockWithAnnotatedEqualities(BlockingValidatorTest.java:226)
+

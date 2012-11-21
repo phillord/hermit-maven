@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.semanticweb.HermiT.reasoner.DatatypesTest
+-------------------------------------------------------------------------------
+Tests run: 57, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec <<< FAILURE!
+testFloatZeros(org.semanticweb.HermiT.reasoner.DatatypesTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<false> but was:<true>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:149)
+	at junit.framework.Assert.assertEquals(Assert.java:155)
+	at org.semanticweb.HermiT.reasoner.AbstractReasonerTest.assertABoxSatisfiable(AbstractReasonerTest.java:104)
+	at org.semanticweb.HermiT.reasoner.DatatypesTest.testFloatZeros(DatatypesTest.java:361)
+
