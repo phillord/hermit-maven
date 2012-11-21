@@ -9,7 +9,8 @@ involves no modifications to their code base. It is not, however, officially
 supported by the original authors of HermiT. 
 
 
-== Building
+Building
+--------
 
 The top level directory is the original source tree from the HermiT authors.
 The HermiT directory contains the maven build. This uses a series of symlinks
@@ -24,13 +25,15 @@ forward. Again, the code is directly exported from the original source.
 To build, simply move into the HermiT directory and type "mvn install". You
 can also build with ant from the directory above. 
 
-== License
+License
+-------
 
 The HermiT code is licensed under LGPL. The include Jautomata code is licensed
 under a BSD like license. 
 
 
-== Authors
+Authors
+-------
 
 From the HermiT web page:
 
