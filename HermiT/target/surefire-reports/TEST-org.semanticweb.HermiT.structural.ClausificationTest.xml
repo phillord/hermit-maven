@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="6" time="0.23" errors="0" skipped="0" tests="9" name="org.semanticweb.HermiT.structural.ClausificationTest">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386"/>
+    <property name="java.vm.version" value="20.0-b12"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/mnt/sdb1/home/phillord/src/knowledge/hermit/HermiT/trunk/HermiT"/>
+    <property name="java.runtime.version" value="1.6.0_24-b24"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="os.version" value="3.2.0-32-generic"/>
+    <property name="user.home" value="/home/phillord"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="phillord"/>
+    <property name="java.class.path" value="/usr/share/maven2/boot/classworlds.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/usr/lib/jvm/java-6-openjdk-i386/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher &quot;test&quot;"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_24"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="/usr/share/maven2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.048" classname="org.semanticweb.HermiT.structural.ClausificationTest" name="testExistsSelf1"/>
+  <testcase time="0.007" classname="org.semanticweb.HermiT.structural.ClausificationTest" name="testExistsSelf2"/>
+  <testcase time="0.005" classname="org.semanticweb.HermiT.structural.ClausificationTest" name="testAsymmetry"/>
+  <testcase time="0.031" classname="org.semanticweb.HermiT.structural.ClausificationTest" name="testNominals1">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testNominals1(ClausificationTest.java:29)
+</failure>
+    <system-out>Loading Resource:file:/mnt/sdb1/home/phillord/src/knowledge/hermit/HermiT/trunk/HermiT/target/test-classes/org/semanticweb/HermiT/structural/res/nominals-1-input.xml
+Test testNominals1 failed!
+Control set (6 elements):
+------------------------------------------
+nom:i1(:i1)
+nom:i2(:i2)
+:r(X,Y) v :r(X,Y1) :- :c(X), nom:i1(Y), nom:i2(Y1)
+atLeast(1 :s not(def:0))(X) :- :d(X)
+def:0(:i1)
+def:0(:i2)
+------------------------------------------
+Actual set (6 elements):
+------------------------------------------
+:r(X,Z) v :r(X,Z1) :- :c(X), nom:i1(Z1), nom:i2(Z)
+atLeast(1 :s not(def:0))(X) :- :d(X)
+nom:i1(:i1)
+def:0(:i1)
+def:0(:i2)
+nom:i2(:i2)
+------------------------------------------
+</system-out>
+  </testcase>
+  <testcase time="0.032" classname="org.semanticweb.HermiT.structural.ClausificationTest" name="testNominals2">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testNominals2(ClausificationTest.java:33)
+</failure>
+    <system-out>Loading Resource:file:/mnt/sdb1/home/phillord/src/knowledge/hermit/HermiT/trunk/HermiT/target/test-classes/org/semanticweb/HermiT/structural/res/nominals-2-input.xml
+Test testNominals2 failed!
+Control set (9 elements):
+------------------------------------------
+ :- :h(X), :r(X,Y), def:0(Y)
+ :- :g(X), :r(X,Y), nom:i1(Y)
+:r(X,Y) v :r(X,Y1) :- :c(X), nom:i1(Y), nom:i2(Y1)
+Y == Y1 v Y == Y2 :- :f(X), :r(X,Y), nom:i1(Y1), nom:i2(Y2)
+:e(X) v [Y1 == Y2]@atMost(2 :r :d)(X) v [Y1 == Y3]@atMost(2 :r :d)(X) v [Y2 == Y3]@atMost(2 :r :d)(X) :- Y1 &lt;= Y2, Y2 &lt;= Y3, :d(X), :d(Y1), :d(Y2), :d(Y3), :r(X,Y1), :r(X,Y2), :r(X,Y3), NodeIDsAscendingOrEqual(Y1,Y2,Y3)
+nom:i2(:i2)
+def:0(:i2)
+def:0(:i1)
+nom:i1(:i1)
+------------------------------------------
+Actual set (9 elements):
+------------------------------------------
+:r(X,Z) v :r(X,Z1) :- :c(X), nom:i1(Z1), nom:i2(Z)
+:e(X) v [Y1 == Y2]@atMost(2 :r :d)(X) v [Y1 == Y3]@atMost(2 :r :d)(X) v [Y2 == Y3]@atMost(2 :r :d)(X) :- Y1 &lt;= Y2, Y2 &lt;= Y3, :d(X), :d(Y1), :d(Y2), :d(Y3), :r(X,Y1), :r(X,Y2), :r(X,Y3), NodeIDsAscendingOrEqual(Y1,Y2,Y3)
+ :- :h(X), :r(X,Y), def:0(Y)
+ :- :g(X), :r(X,Y), nom:i1(Y)
+Y == Z v Y == Z1 :- :f(X), :r(X,Y), nom:i1(Z1), nom:i2(Z)
+nom:i1(:i1)
+def:0(:i1)
+def:0(:i2)
+nom:i2(:i2)
+------------------------------------------
+</system-out>
+  </testcase>
+  <testcase time="0.03" classname="org.semanticweb.HermiT.structural.ClausificationTest" name="testNominals3">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testNominals3(ClausificationTest.java:37)
+</failure>
+    <system-out>Loading Resource:file:/mnt/sdb1/home/phillord/src/knowledge/hermit/HermiT/trunk/HermiT/target/test-classes/org/semanticweb/HermiT/structural/res/nominals-3-input.xml
+Test testNominals3 failed!
+Control set (4 elements):
+------------------------------------------
+:r(Y,X) v :r(Y1,X) :- :c(X), nom:i1(Y), nom:i2(Y1)
+:e(X) v [Y1 == Y2]@atMost(2 :r :d)(X) v [Y1 == Y3]@atMost(2 :r :d)(X) v [Y2 == Y3]@atMost(2 :r :d)(X) :- Y1 &lt;= Y2, Y2 &lt;= Y3, :d(X), :d(Y1), :d(Y2), :d(Y3), :r(X,Y1), :r(X,Y2), :r(X,Y3), NodeIDsAscendingOrEqual(Y1,Y2,Y3)
+nom:i2(:i2)
+nom:i1(:i1)
+------------------------------------------
+Actual set (4 elements):
+------------------------------------------
+:e(X) v [Y1 == Y2]@atMost(2 :r :d)(X) v [Y1 == Y3]@atMost(2 :r :d)(X) v [Y2 == Y3]@atMost(2 :r :d)(X) :- Y1 &lt;= Y2, Y2 &lt;= Y3, :d(X), :d(Y1), :d(Y2), :d(Y3), :r(X,Y1), :r(X,Y2), :r(X,Y3), NodeIDsAscendingOrEqual(Y1,Y2,Y3)
+:r(Z,X) v :r(Z1,X) :- :c(X), nom:i1(Z1), nom:i2(Z)
+nom:i1(:i1)
+nom:i2(:i2)
+------------------------------------------
+</system-out>
+  </testcase>
+  <testcase time="0.016" classname="org.semanticweb.HermiT.structural.ClausificationTest" name="testNominals4">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:38)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testNominals4(ClausificationTest.java:41)
+</failure>
+    <system-out>Loading Resource:file:/mnt/sdb1/home/phillord/src/knowledge/hermit/HermiT/trunk/HermiT/target/test-classes/org/semanticweb/HermiT/structural/res/nominals-4-input.xml
+Test testNominals4 failed!
+Control set (2 elements):
+------------------------------------------
+:hasSugar(X,Y) :- :Chianti(X), nom:Dry(Y)
+nom:Dry(:Dry)
+------------------------------------------
+Actual set (2 elements):
+------------------------------------------
+:hasSugar(X,Z) :- :Chianti(X), nom:Dry(Z)
+nom:Dry(:Dry)
+------------------------------------------
+</system-out>
+  </testcase>
+  <testcase time="0.051" classname="org.semanticweb.HermiT.structural.ClausificationTest" name="testBasic">
+    <failure message="expected:&lt;5&gt; but was:&lt;13&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;5&gt; but was:&lt;13&gt;
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at org.semanticweb.HermiT.structural.AbstractStructuralTest.assertContainsAll(AbstractStructuralTest.java:31)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertDLClauses(ClausificationTest.java:119)
+	at org.semanticweb.HermiT.structural.ClausificationTest.assertClausification(ClausificationTest.java:114)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testBasic(ClausificationTest.java:25)
+</failure>
+    <system-out>Loading Resource:file:/mnt/sdb1/home/phillord/src/knowledge/hermit/HermiT/trunk/HermiT/target/test-classes/org/semanticweb/HermiT/structural/res/basic-input.xml
+Test testBasic failed!
+Control set (5 elements):
+------------------------------------------
+:d(X) :- :r(X,Y), def:0(Y)
+def:0(X) :- all:0_1(X)
+all:0_1(X) :- :s(X,Y), all:0_0(Y)
+all:0_0(X) :- :s(X,Y), all:0_0(Y)
+all:0_0(X) :- :c(X)
+------------------------------------------
+Actual set (13 elements):
+------------------------------------------
+:d(X) :- :r(X,Y), def:0(Y)
+def:0(X) :- all:0(X)
+all:0(X) :- :s(X,Y), all:1(Y)
+all:2(X) :- all:4(X)
+all:3(X) :- all:2(X)
+all:4(X) :- :s(X,Y), all:5(Y)
+all:5(X) :- all:4(X)
+all:5(X) :- all:3(X)
+all:3(X) :- all:1(X)
+all:2(X) :- :s(X,Y), all:3(Y)
+all:1(X) :- all:0(X)
+all:0(X) :- all:2(X)
+all:1(X) :- :c(X)
+------------------------------------------
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="org.semanticweb.HermiT.structural.ClausificationTest" name="testHasKeys">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.semanticweb.HermiT.structural.ClausificationTest.testHasKeys(ClausificationTest.java:81)
+</failure>
+  </testcase>
+</testsuite>

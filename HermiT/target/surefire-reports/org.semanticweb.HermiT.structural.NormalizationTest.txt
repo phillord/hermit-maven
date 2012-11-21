@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.semanticweb.HermiT.structural.NormalizationTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec <<< FAILURE!
+testKeys2(org.semanticweb.HermiT.structural.NormalizationTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.fail(Assert.java:53)
+	at org.semanticweb.HermiT.structural.NormalizationTest.testKeys2(NormalizationTest.java:184)
