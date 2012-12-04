@@ -17,12 +17,22 @@
 
   This is the maven build of HermiT and is designed for people who wish to use
   HermiT from within the OWL API. It is not officially supported by the HermiT
-  development team. It is build using the HermiT source tree without
-  modification. 
+  development team, but was built initially for use with the Clojure-OWL
+  library. It is built using the HermiT source tree without modification.
+  There have been some additions to the test source tree to account for
+  differences between the maven and ant environment; these are small and
+  (hopefully) maintainable.
+
+  The version number of this package is a composite of the HermiT version and
+  an value representing releases of this packaged version. So, 1.3.7.1 is the
+  first release of the mavenized version of HermiT based on the 1.3.7 release
+  of HermiT.
 
   This package includes the Jautomata library
   (http://jautomata.sourceforge.net/), and builds with it directly. This
-  library appears to be no longer under active development.
+  library appears to be no longer under active development, and so a "fork"
+  seems appropriate. No development is intended or anticipated on this code
+  base.
   </description>
 
   <licenses>
