@@ -292,8 +292,9 @@ public class WGTestDescriptor {
     public void addTestsToSuite(TestSuite suite,boolean useDisjunctionLearning) {
         for (TestType testType : TestType.values()) {
             Test test=getTest(testType,null,useDisjunctionLearning);
-            if (test!=null)
+            if (test!=null){
                 suite.addTest(test);
+            }
         }
     }
 
