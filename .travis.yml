@@ -5,8 +5,7 @@ language: java
 install: cd HermiT;mvn install -DskipTests=true
 
 ## do the tests
-script: cd HermiT;mvn test
+script: ant test-hard;cd HermiT;mvn test
 
 jdk:
-  - oraclejdk7
   - openjdk6
