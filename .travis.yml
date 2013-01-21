@@ -1,0 +1,12 @@
+language: java
+
+## do everything in HermiT directory
+## this installs dependencies
+install: cd HermiT;mvn install -DskipTests=true
+
+## do the tests
+script: cd HermiT;mvn test
+
+jdk:
+  - oraclejdk7
+  - openjdk6
