@@ -2,7 +2,7 @@ language: java
 
 ## do everything in HermiT directory
 ## this installs dependencies. Ant needs no installation because they are already there.
-install: cd HermiT;mvn install -DskipTests=true
+install: cd HermiT;mvn install -DskipTests=true;cd ..
 
 ## do the tests
 script: ant test-hard;cd HermiT;mvn test
