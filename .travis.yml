@@ -5,7 +5,7 @@ language: java
 install: cd HermiT;mvn install -DskipTests=true;cd ..
 
 ## do the tests
-script: ant test-hard;cd HermiT;mvn test
+script: ant test-hard && cd HermiT && mvn test
 
 ## a single JVM should be enough.
 jdk:
