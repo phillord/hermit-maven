@@ -25,6 +25,17 @@ forward. Again, the code is directly exported from the original source.
 To build, simply move into the HermiT directory and type "mvn install". You
 can also build with ant from the directory above. 
 
+Testing
+-------
+
+The test sets for the maven build and the ant build *should* be the same. 
+However, some of the tests launch code (not the actual tests) has been
+modified; also ant is running JUnit 3, maven is running JUnit 4. So they can
+go out of sync. 
+
+The maven build includes the rationals Jautomata tests -- there are 67 in
+total, so there should be 67 more tests in the maven build than in the ant. 
+
 License
 -------
 
