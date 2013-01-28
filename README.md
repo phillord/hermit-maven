@@ -54,3 +54,9 @@ Computer Science in the University of Oxford in Oxford, England.
 
 This mavenised version has been produced by Phillip Lord
 (phillip.lord@newcastle.ac.uk).
+
+
+Changes
+-------
+
+1.3.6.2 New tests incorporated from Oxford. Update to 3.4.3 OWL API.
