@@ -8,7 +8,7 @@ import java.util.ArrayList;
 // silly name because otherwise maven tries to run this as a test. Which fails
 public class TstDescriptorForMaven{
 
-    public static Collection getEntailmentTestParams() throws Exception{ 
+    public static Collection<Object[]> getEntailmentTestParams() throws Exception{ 
         // PWL code
         List<Object[]> params = new ArrayList<Object[]>();
 
@@ -49,7 +49,7 @@ public class TstDescriptorForMaven{
     }
 
     // this is largely the same as above...
-    public static Collection getConsistencyTestParams() throws Exception{
+    public static Collection<Object[]> getConsistencyTestParams() throws Exception{
         // PWL code
         List<Object[]> params = new ArrayList<Object[]>();
 
