@@ -6,7 +6,7 @@ This is a mavenised version of the
 
 It is built directly from the source repository of the HermiT team and
 involves no modifications to their code base. It is not, however, officially
-supported by the original authors of HermiT. 
+supported by the original authors of HermiT.
 
 
 Building
@@ -24,6 +24,24 @@ forward. Again, the code is directly exported from the original source.
 
 To build, simply move into the HermiT directory and type "mvn install". You
 can also build with ant from the directory above. 
+
+Using
+-----
+
+The dependency and repository information is as follows. 
+
+    <groupId>org.semanticweb.hermit</groupId>
+    <artifactId>HermiT</artifactId>
+    <version>1.3.7.1</version>
+
+    <repository>
+       <id>phillord</id>
+        <url>http://homepages.cs.ncl.ac.uk/phillip.lord/maven</url>
+    </repository>
+
+
+Currently, this is not hosted on maven central. It would be nice to do this,
+but it is not high priority.
 
 Testing
 -------
