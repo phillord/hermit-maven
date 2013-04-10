@@ -8,6 +8,8 @@ install: cd HermiT;mvn install -DskipTests=true;cd ..
 script: ant test-hard && cd HermiT && mvn test
 
 ## a single JVM should be enough.
+## Adding openjdk7 is probably a sensible thing, but means I have to 
+## edit the ant build.xml file which is unfortunate.
 jdk:
   - openjdk6
   - openjdk7
