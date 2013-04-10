@@ -10,6 +10,7 @@ script: ant test-hard && cd HermiT && mvn test
 ## a single JVM should be enough.
 jdk:
   - openjdk6
+  - openjdk7
 
 ## I will need to set something up to catch these. 
 notifications:
